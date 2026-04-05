@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>1 Year with My Chikki 💕 Rimjhim</title>
+
+<style>
+*{margin:0;padding:0;box-sizing:border-box;}
+body{
+font-family:'Georgia',serif;
+background:linear-gradient(135deg,#ff9a9e,#fecfef,#ffdde1);
+min-height:100vh;
+overflow-x:hidden;
+}
+
+/* FLOATING ELEMENTS */
+.floating-bg{position:fixed;width:100%;height:100%;z-index:1;pointer-events:none;}
+.float{
+position:absolute;
+animation:float 20s linear infinite;
+opacity:0.7;
+font-size:22px;
+}
+@keyframes float{
+0%{transform:translateY(100vh) rotate(0);opacity:0;}
+10%{opacity:1;}
+90%{opacity:1;}
+100%{transform:translateY(-100px) rotate(360deg);opacity:0;}
+}
+
+.container{max-width:900px;margin:auto;padding:20px;position:relative;z-index:10;}
+
+/* QUESTION */
+.question-section{
+background:white;
+padding:80px 20px;
+border-radius:30px;
+text-align:center;
+margin-bottom:40px;
+box-shadow:0 20px 60px rgba(255,105,180,0.3);
+}
+.question{font-size:2.5rem;color:#ff1493;margin-bottom:20px;}
+input{
+padding:15px;
+border-radius:50px;
+border:2px solid pink;
+font-size:1.2rem;
+text-align:center;
+}
+button{
+margin-top:20px;
+padding:15px 40px;
+border:none;
+border-radius:50px;
+background:#ff1493;
+color:white;
+cursor:pointer;
+}
+.magic{font-size:2rem;color:#ff1493;margin-top:20px;display:none;}
+
+/* COLLAGE */
+.collage-section{
+background:white;
+padding:40px;
+border-radius:30px;
+margin-bottom:40px;
+text-align:center;
+}
+.photo{
+width:180px;height:180px;margin:10px;
+border-radius:20px;
+display:inline-block;
+background:#ffc0cb;
+}
+
+/* CAKE */
+.cake-section{
+background:linear-gradient(#ff69b4,#ff1493);
+color:white;
+padding:60px;
+border-radius:30px;
+text-align:center;
+margin-bottom:40px;
+}
+
+/* TIMELINE */
+.timeline-section{
+background:white;
+padding:40px;
+border-radius:30px;
+margin-bottom:40px;
+}
+.timeline-title{text-align:center;color:#ff1493;font-size:2rem;margin-bottom:30px;}
+.timeline-item{margin:20px 0;padding:20px;border-left:5px solid #ff69b4;}
+.timeline-content img{width:100%;border-radius:15px;margin:10px 0;}
+
+/* FINAL */
+.final{
+background:white;
+padding:40px;
+border-radius:30px;
+text-align:center;
+}
+</style>
+
+</head>
+
+<body>
+
+<div class="floating-bg" id="floating"></div>
+
+<div class="container">
+
+<section class="question-section">
+<div class="question">💕 What is 1+2+3+4? 💕</div>
+<input id="ans" placeholder="Not 10… think with heart">
+<br>
+<button onclick="check()">Unlock 💖</button>
+<div class="magic" id="magic">It's YOU… It's RIMJHIM… It's CHIKKI 💕</div>
+</section>
+
+<div id="mainContent" style="display:none;">
+
+<section class="collage-section">
+<h2>Our Memories 📸</h2>
+<div class="photo"><img src="C:\Users\dell\OneDrive\Pictures\Screenshots\project\Screenshot 2025-12-28 225006.png" style="width:100%;height:100%;object-fit:cover;border-radius:20px;"></div>
+<div class="photo"><img src="C:\Users\dell\OneDrive\Pictures\Screenshots\project\Screenshot 2025-12-28 224916.png" style="width:100%;height:100%;object-fit:cover;border-radius:20px;"></div>
+<div class="photo"><img src="C:\Users\dell\OneDrive\Pictures\Screenshots\project\666556818_1294829385889908_1394253228338518109_n.jpg" style="width:100%;height:100%;object-fit:cover;border-radius:20px;"></div>
+<div class="photo"><img src="C:\Users\dell\OneDrive\Pictures\Screenshots\project\664586979_1449585263276289_8064700221914049341_n.jpg" style="width:100%;height:100%;object-fit:cover;border-radius:20px;"></div>
+<div class="photo"><img src="C:\Users\dell\OneDrive\Pictures\Screenshots\project\Copy of Screenshot 2025-08-27 220312.png" style="width:100%;height:100%;object-fit:cover;border-radius:20px;"></div>
+<div class="photo"><img src="C:\Users\dell\OneDrive\Pictures\Screenshots\project\662121385_4313097412292603_8793282058647801980_n.jpg" style="width:100%;height:100%;object-fit:cover;border-radius:20px;"></div>
+	
+</section>
+
+<section class="cake-section">
+<h2>Happy 1 Year 🎂</h2>
+<p>We made it… and this is just the beginning 💕</p>
+</section>
+
+<section class="timeline-section">
+<h2 class="timeline-title">Our Story So Far 💕</h2>
+
+<div class="timeline">
+
+<div class="timeline-item">
+<h3>26 April 2025</h3>
+<p>Our First Date 🌸</p>
+<span>I knew something was different… and beautiful.</span>
+</div>
+
+<div class="timeline-item">
+<h3>25 May 2025</h3>
+<p>Second Date 💖</p>
+<span>You became my comfort without me realizing it.</span>
+</div>
+
+<div class="timeline-item">
+<h3>26 Aug 2025</h3>
+<p>Her Birthday 🎂</p>
+<img src="C:\Users\dell\OneDrive\Pictures\Screenshots\project\Copy of Screenshot 2025-08-27 220312.png"style="width:100%;height:100%;object-fit:cover;border-radius:20px;">
+<span>Your smile that day… my favorite memory.</span>
+</div>
+
+<div class="timeline-item">
+<h3>9 Oct 2025</h3>
+<p>My Birthday 🎉</p>
+<img src="C:\Users\dell\OneDrive\Pictures\Screenshots\project\Screenshot 2025-10-09 203250.png"style="width:100%;height:100%;object-fit:cover;border-radius:20px;">
+<span>You made it special just by being there.</span>
+</div>
+
+<div class="timeline-item">
+<h3>28 Dec 2025</h3>
+<p>Winter Date ❄️</p>
+<img src="C:\Users\dell\OneDrive\Pictures\Screenshots\project\Screenshot 2025-12-28 225006.png"style="width:100%;height:100%;object-fit:cover;border-radius:20px;">
+<span>Cold outside… warm because of you.</span>
+</div>
+
+<div class="timeline-item">
+<h3>04 April 2026</h3>
+<p>Almost 1 Year 💫</p>
+<img src="C:\Users\dell\OneDrive\Pictures\Screenshots\project\662115644_2358328761330778_5983059069413913223_n.jpg" style="width:100%;height:100%;object-fit:cover;border-radius:20px;">
+<br><span>Still choosing you… every single day.</span>
+</div>
+
+</div>
+</section>
+
+<section class="final">
+<h2>1 Year just the beaggining💕</h2>
+<p>
+From one message… to a whole story.<br>
+You're my love my baby my everything that i ever dreamed off u are my love  u are thee only one whoom i love . 💖
+</p>
+
+<p>Rimjhim… I still remember that first message on 5th April like it just happened, how something so simple slowly turned into something that means everything to me. From those early conversations to the moment on 8th April when we became us, it never felt forced, it just felt right. Over time you didn’t just become someone I talk to, you became my comfort, my habit, my peace in ways I can’t even fully explain. Every date, every small moment, every smile of yours added something real to my life. Even the quiet days feel special because they have you in them. I don’t know what the future holds, but I know this one thing for sure, if I ever had to start again, I would still choose you in every lifetime without thinking twice.</p>
+</section>
+
+</div>
+</div>
+
+<script>
+function check(){
+let v=document.getElementById("ans").value.toLowerCase();
+let valid=["rimjhim","chikkki","me","love","chuhiyaa","bubbaa","bubaai"];
+if(valid.includes(v)){
+document.getElementById("magic").style.display="block";
+document.getElementById("mainContent").style.display="block";
+}else{
+alert("Think with heart 💔");
+}
+}
+
+/* floating */
+setInterval(()=>{
+let el=document.createElement("div");
+let arr=["🌸","🦋","💖","🌹"];
+el.innerHTML=arr[Math.floor(Math.random()*arr.length)];
+el.className="float";
+el.style.left=Math.random()*100+"%";
+document.getElementById("floating").appendChild(el);
+setTimeout(()=>el.remove(),20000);
+},800);
+</script>
+
+</body>
+</html>
